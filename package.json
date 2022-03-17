@@ -1,0 +1,27 @@
+{
+  "name": "dice-api",
+  "version": "1.0.0",
+  "description": "Test task - dice graphQL API",
+  "main": "index.js",
+  "scripts": {
+    "seed": "npx sequelize-cli db:seed:all",
+    "start": "tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sequelize/core": "^7.0.0-alpha.10",
+    "@types/sequelize": "^4.28.11",
+    "apollo-server": "^3.6.4",
+    "class-validator": "^0.13.2",
+    "graphql": "^15.3.0",
+    "install": "^0.13.0",
+    "mysql2": "^2.3.3",
+    "npm": "^8.5.4",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^6.17.0",
+    "sequelize-cli": "^6.4.1",
+    "type-graphql": "^1.1.1"
+  }
+}
